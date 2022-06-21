@@ -1,0 +1,30 @@
+.btn {
+	outline: none;
+	border: none;
+	padding: 0.8rem 1.5rem;
+	font-size: 1rem;
+	background: rgb(231, 231, 231);
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background: var(--bg-purple);
+	color: white;
+}
+
+.btn-red {
+	background: var(--bg-red);
+	color: white;
+}
+
+.btn-yellow {
+	background: var(--bg-yellow);
+	color: black;
+}
+
+.btn-normal {
+	background: rgb(231, 231, 231);
+	/* color: var(--color-purple); */
+	color: black;
+}

@@ -8,6 +8,16 @@ font-family: 'Roboto Slab', serif; -- Headings
 #FFDE59 -- yellow
  */
 
+:root {
+	--box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1);
+	--color-red: #ff1616;
+	--color-yellow: #ffde59;
+	--color-purple: #8247e5;
+	--bg-yellow: #fcdd60;
+	--bg-red: #ff6666;
+	--bg-purple: #9a5fff;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -20,4 +30,25 @@ body {
 
 .heading {
 	font-family: "Roboto Slab", serif;
+}
+
+.normal-font {
+	font-family: "Poppins", sans-serif;
+}
+
+.text-red {
+	color: var(--color-red);
+}
+
+.text-yellow {
+	color: var(--color-yellow);
+}
+
+.text-purple {
+	color: var(--color-purple);
+}
+
+.anchor {
+	text-decoration: none;
+	color: var(--bg-purple);
 }
