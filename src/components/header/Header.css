@@ -87,4 +87,15 @@
 	.header-details .container .info h1 {
 		font-size: 2rem;
 	}
+
+	.promotion .promotion-card {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.promotion .promotion-card {
+		width: 90%;
+	}
 }
