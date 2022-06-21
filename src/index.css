@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@400;600;700;800&display=swap");
+
+/* 
+font-family: 'Poppins', sans-serif; -- normal fonts
+font-family: 'Roboto Slab', serif; -- Headings
+#8247E5 -- purple
+#FF1616 -- red
+#FFDE59 -- yellow
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.heading {
+	font-family: "Roboto Slab", serif;
 }
