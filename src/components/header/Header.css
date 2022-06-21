@@ -39,6 +39,7 @@
 
 .header-details .container .info h1 {
 	font-size: 3rem;
+	text-transform: capitalize;
 }
 
 .header-details .container .info .header-cta {
@@ -72,6 +73,11 @@
 		justify-content: center;
 		align-items: center;
 		gap: 2rem;
+	}
+
+	.header-details .container .info {
+		justify-content: center;
+		align-items: center;
 	}
 
 	.header-details .container .info {
