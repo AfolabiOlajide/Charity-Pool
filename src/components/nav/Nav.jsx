@@ -13,6 +13,8 @@ const Nav = () => {
 
 	if (isOpen === true) {
 		document.querySelector("body").style.overflow = "hidden";
+	} else {
+		document.querySelector("body").style.overflow = "auto";
 	}
 
 	const menuToggle = () => {
@@ -56,7 +58,7 @@ const Nav = () => {
 					</Link>
 				</div>
 				<div className="connect">
-					<Button className="btn-red">Connect</Button>
+					<Button className="btn-primary">Connect</Button>
 				</div>
 			</div>
 		</div>

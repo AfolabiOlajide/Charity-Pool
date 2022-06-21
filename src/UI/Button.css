@@ -24,7 +24,8 @@
 }
 
 .btn-normal {
-	background: rgb(231, 231, 231);
+	background: rgb(252, 252, 252);
+	border: 2px solid rgb(200, 200, 200);
 	/* color: var(--color-purple); */
 	color: black;
 }

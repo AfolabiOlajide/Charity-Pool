@@ -52,3 +52,14 @@ body {
 	text-decoration: none;
 	color: var(--bg-purple);
 }
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+}

@@ -4,7 +4,7 @@
 	display: grid;
 	grid-template-columns: 30% 30% 40%;
 	gap: 1rem;
-	margin-bottom: 2rem;
+	/* margin-bottom: 2rem; */
 	justify-content: center;
 	align-items: center;
 }
@@ -58,12 +58,19 @@
 .nav .open-btn,
 .nav .close-btn {
 	font-size: 2rem;
+	display: none;
 }
 
 @media screen and (max-width: 985px) {
 	.nav {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	.nav .open-btn,
+	.nav .close-btn {
+		font-size: 2rem;
+		display: block;
 	}
 
 	.cta {
