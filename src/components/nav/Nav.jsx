@@ -11,6 +11,10 @@ import "./Nav.css";
 const Nav = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
+	if (isOpen === true) {
+		document.querySelector("body").style.overflow = "hidden";
+	}
+
 	const menuToggle = () => {
 		setIsOpen(!isOpen);
 	};
