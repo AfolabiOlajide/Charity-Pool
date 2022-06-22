@@ -1,0 +1,22 @@
+.charity .top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+
+.charity {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.charity button {
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 785px) {
+	.charity .top {
+		font-size: 0.7rem;
+	}
+}

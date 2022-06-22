@@ -1,12 +1,26 @@
 .card {
+	margin: 0 auto;
 	padding: 2rem 3rem;
 	border-radius: 1rem;
 	margin-bottom: 2rem;
 	box-shadow: -0.5rem 0.5rem 3rem rgba(101, 101, 101, 0.2);
 	transition: 300ms all ease;
 	background: white;
+	width: 80%;
 }
 
 .card:hover {
 	transform: scale(1.009);
+}
+
+.card-purple {
+	background: var(--bg-purple);
+	color: white;
+}
+
+.card-yellow {
+	background: var(--bg-yellow-light);
+}
+
+@media screen and (max-width: 785px) {
 }
